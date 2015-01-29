@@ -3,6 +3,8 @@ import pygame
 from pygame.locals import *
 
 def main():
+    """ejecuta el juego hanoi"""
+    
     pygame.init()
     pygame.display.set_mode((640, 480))
 
@@ -29,4 +31,5 @@ def main():
         pygame.display.update()
 
 
-main()
+if __name__ == '__main__':
+    main()
